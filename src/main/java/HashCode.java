@@ -31,6 +31,8 @@ public class HashCode {
 
     hashCode 메서드가 재정의 되어있지 않다면 Object 클래스의 hashCode 메서드가 사용된다.
     Object 클래스의 hashCode 메서드는 객체의 고유한 주소 값을 int 값으로 변환하기 때문에 객체마다 다른 값을 리턴한다.
+
+    hashCode:객체의 주소를 해싱하여 값을 반환
     */
     public static void main(String[] args) {
         Set<Car> cars = new HashSet<>();
